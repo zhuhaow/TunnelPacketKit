@@ -9,7 +9,38 @@
 /* Begin PBXBuildFile section */
 		361D15061C4A7184002446F3 /* TunnelPacketKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 361D15051C4A7184002446F3 /* TunnelPacketKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		361D150D1C4A7184002446F3 /* TunnelPacketKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361D15021C4A7184002446F3 /* TunnelPacketKit.framework */; };
-		361D15121C4A7184002446F3 /* TunnelPacketKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361D15111C4A7184002446F3 /* TunnelPacketKitTests.swift */; };
+		361D151D1C4A71F8002446F3 /* IPPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361D151C1C4A71F8002446F3 /* IPPacket.swift */; };
+		361D151F1C4A77C8002446F3 /* IPAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361D151E1C4A77C8002446F3 /* IPAddress.swift */; };
+		361D15251C4A94B6002446F3 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361D15231C4A94B6002446F3 /* CocoaLumberjack.framework */; };
+		361D15261C4A94B6002446F3 /* CocoaLumberjackSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361D15241C4A94B6002446F3 /* CocoaLumberjackSwift.framework */; };
+		361D15291C4B3214002446F3 /* BinaryDataScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361D15281C4B3214002446F3 /* BinaryDataScanner.swift */; };
+		361D152B1C4B39AB002446F3 /* Packet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361D152A1C4B39AB002446F3 /* Packet.swift */; };
+		361D152D1C4B39F8002446F3 /* TCPPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361D152C1C4B39F8002446F3 /* TCPPacket.swift */; };
+		361D15301C4B4585002446F3 /* NetworkInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361D152F1C4B4585002446F3 /* NetworkInterface.swift */; };
+		361D15321C4B4878002446F3 /* Tunnel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361D15311C4B4878002446F3 /* Tunnel.swift */; };
+		361D15351C4B4886002446F3 /* TCPTunnel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361D15341C4B4886002446F3 /* TCPTunnel.swift */; };
+		361D15371C4B4983002446F3 /* TunnelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361D15361C4B4983002446F3 /* TunnelManager.swift */; };
+		361D15391C4B4BBC002446F3 /* enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361D15381C4B4BBC002446F3 /* enums.swift */; };
+		361D153B1C4B5A0D002446F3 /* ProtocolPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361D153A1C4B5A0D002446F3 /* ProtocolPacket.swift */; };
+		364181631C524F9D0041D94A /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364181621C524F9D0041D94A /* LinkedList.swift */; };
+		364181661C52536A0041D94A /* SequenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364181651C52536A0041D94A /* SequenceManager.swift */; };
+		364A8F6F1C4E652C001E0D1A /* Checksum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364A8F6E1C4E652C001E0D1A /* Checksum.swift */; };
+		36530F2D1C4FA421003DFFD5 /* Packet_1.bin in Resources */ = {isa = PBXBuildFile; fileRef = 36530F2C1C4FA421003DFFD5 /* Packet_1.bin */; };
+		36530F301C4FA48C003DFFD5 /* IPPacketSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36530F2F1C4FA48C003DFFD5 /* IPPacketSpec.swift */; };
+		36530F341C4FABAA003DFFD5 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36530F221C4F8407003DFFD5 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		36530F351C4FABAE003DFFD5 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36530F231C4F8407003DFFD5 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		36530F361C4FABB9003DFFD5 /* CocoaLumberjack.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 361D15231C4A94B6002446F3 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		36530F371C4FABBB003DFFD5 /* CocoaLumberjackSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 361D15241C4A94B6002446F3 /* CocoaLumberjackSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		36530F391C4FC8E9003DFFD5 /* ChecksumSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36530F381C4FC8E9003DFFD5 /* ChecksumSpec.swift */; };
+		367C27881C65D87400EAC5F4 /* TCPUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367C27871C65D87400EAC5F4 /* TCPUtils.swift */; };
+		36A7BD5D1C7DB487002793CC /* SNWTCPTunnel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A7BD5C1C7DB487002793CC /* SNWTCPTunnel.swift */; };
+		36A7BD601C7F222B002793CC /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A7BD5F1C7F222B002793CC /* Queue.swift */; };
+		36A7BD621C7F360E002793CC /* SNWUDPTunnel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A7BD611C7F360E002793CC /* SNWUDPTunnel.swift */; };
+		36D0EE4D1C57AC2C00DD18AE /* TCPDataBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D0EE4C1C57AC2C00DD18AE /* TCPDataBlock.swift */; };
+		36D0EE4F1C58F31900DD18AE /* BlockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D0EE4E1C58F31900DD18AE /* BlockManager.swift */; };
+		36D0EE511C58FE2800DD18AE /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D0EE501C58FE2800DD18AE /* DataManager.swift */; };
+		36F6CE411C4B9EC000DA7D4C /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F6CE401C4B9EC000DA7D4C /* Options.swift */; };
+		36FF26C81C5A0C13008D8056 /* TCPPacketSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FF26C71C5A0C13008D8056 /* TCPPacketSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,13 +53,60 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		36530F331C4FAB9E003DFFD5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				36530F341C4FABAA003DFFD5 /* Nimble.framework in CopyFiles */,
+				36530F351C4FABAE003DFFD5 /* Quick.framework in CopyFiles */,
+				36530F361C4FABB9003DFFD5 /* CocoaLumberjack.framework in CopyFiles */,
+				36530F371C4FABBB003DFFD5 /* CocoaLumberjackSwift.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		361D15021C4A7184002446F3 /* TunnelPacketKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TunnelPacketKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		361D15051C4A7184002446F3 /* TunnelPacketKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TunnelPacketKit.h; sourceTree = "<group>"; };
 		361D15071C4A7184002446F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		361D150C1C4A7184002446F3 /* TunnelPacketKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TunnelPacketKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		361D15111C4A7184002446F3 /* TunnelPacketKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunnelPacketKitTests.swift; sourceTree = "<group>"; };
 		361D15131C4A7184002446F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		361D151C1C4A71F8002446F3 /* IPPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPPacket.swift; sourceTree = "<group>"; };
+		361D151E1C4A77C8002446F3 /* IPAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPAddress.swift; sourceTree = "<group>"; };
+		361D15201C4A898F002446F3 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		361D15231C4A94B6002446F3 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = Carthage/Build/Mac/CocoaLumberjack.framework; sourceTree = "<group>"; };
+		361D15241C4A94B6002446F3 /* CocoaLumberjackSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjackSwift.framework; path = Carthage/Build/Mac/CocoaLumberjackSwift.framework; sourceTree = "<group>"; };
+		361D15281C4B3214002446F3 /* BinaryDataScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryDataScanner.swift; sourceTree = "<group>"; };
+		361D152A1C4B39AB002446F3 /* Packet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Packet.swift; sourceTree = "<group>"; };
+		361D152C1C4B39F8002446F3 /* TCPPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPPacket.swift; sourceTree = "<group>"; };
+		361D152F1C4B4585002446F3 /* NetworkInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkInterface.swift; sourceTree = "<group>"; };
+		361D15311C4B4878002446F3 /* Tunnel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tunnel.swift; sourceTree = "<group>"; };
+		361D15341C4B4886002446F3 /* TCPTunnel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPTunnel.swift; sourceTree = "<group>"; };
+		361D15361C4B4983002446F3 /* TunnelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TunnelManager.swift; sourceTree = "<group>"; };
+		361D15381C4B4BBC002446F3 /* enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = enums.swift; sourceTree = "<group>"; };
+		361D153A1C4B5A0D002446F3 /* ProtocolPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPacket.swift; sourceTree = "<group>"; };
+		36315AF61C59E060001E2A5B /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
+		364181621C524F9D0041D94A /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		364181651C52536A0041D94A /* SequenceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequenceManager.swift; sourceTree = "<group>"; };
+		364A8F6E1C4E652C001E0D1A /* Checksum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checksum.swift; sourceTree = "<group>"; };
+		36530F221C4F8407003DFFD5 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
+		36530F231C4F8407003DFFD5 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
+		36530F2C1C4FA421003DFFD5 /* Packet_1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = Packet_1.bin; sourceTree = "<group>"; };
+		36530F2F1C4FA48C003DFFD5 /* IPPacketSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPPacketSpec.swift; sourceTree = "<group>"; };
+		36530F381C4FC8E9003DFFD5 /* ChecksumSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChecksumSpec.swift; path = Utils/ChecksumSpec.swift; sourceTree = "<group>"; };
+		367C27871C65D87400EAC5F4 /* TCPUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPUtils.swift; sourceTree = "<group>"; };
+		36A7BD5C1C7DB487002793CC /* SNWTCPTunnel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNWTCPTunnel.swift; sourceTree = "<group>"; };
+		36A7BD5F1C7F222B002793CC /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		36A7BD611C7F360E002793CC /* SNWUDPTunnel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNWUDPTunnel.swift; sourceTree = "<group>"; };
+		36D0EE4C1C57AC2C00DD18AE /* TCPDataBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPDataBlock.swift; sourceTree = "<group>"; };
+		36D0EE4E1C58F31900DD18AE /* BlockManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockManager.swift; sourceTree = "<group>"; };
+		36D0EE501C58FE2800DD18AE /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		36F6CE401C4B9EC000DA7D4C /* Options.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
+		36FF26C71C5A0C13008D8056 /* TCPPacketSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPPacketSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +114,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				361D15251C4A94B6002446F3 /* CocoaLumberjack.framework in Frameworks */,
+				361D15261C4A94B6002446F3 /* CocoaLumberjackSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,9 +133,15 @@
 		361D14F81C4A7184002446F3 = {
 			isa = PBXGroup;
 			children = (
+				36315AF61C59E060001E2A5B /* .swiftlint.yml */,
+				36530F221C4F8407003DFFD5 /* Nimble.framework */,
+				36530F231C4F8407003DFFD5 /* Quick.framework */,
+				361D15231C4A94B6002446F3 /* CocoaLumberjack.framework */,
+				361D15241C4A94B6002446F3 /* CocoaLumberjackSwift.framework */,
 				361D15041C4A7184002446F3 /* TunnelPacketKit */,
 				361D15101C4A7184002446F3 /* TunnelPacketKitTests */,
 				361D15031C4A7184002446F3 /* Products */,
+				361D15201C4A898F002446F3 /* Cartfile */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,8 +157,14 @@
 		361D15041C4A7184002446F3 /* TunnelPacketKit */ = {
 			isa = PBXGroup;
 			children = (
+				361D15271C4B3184002446F3 /* Utils */,
 				361D15051C4A7184002446F3 /* TunnelPacketKit.h */,
 				361D15071C4A7184002446F3 /* Info.plist */,
+				361D152E1C4B433D002446F3 /* Packet */,
+				361D151E1C4A77C8002446F3 /* IPAddress.swift */,
+				361D152F1C4B4585002446F3 /* NetworkInterface.swift */,
+				361D15331C4B487D002446F3 /* Tunnel */,
+				36A7BD5E1C7DB48D002793CC /* SNWTunnel */,
 			);
 			path = TunnelPacketKit;
 			sourceTree = "<group>";
@@ -80,10 +172,93 @@
 		361D15101C4A7184002446F3 /* TunnelPacketKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				361D15111C4A7184002446F3 /* TunnelPacketKitTests.swift */,
+				36530F3B1C50E6CE003DFFD5 /* Resources */,
+				36530F3A1C4FC8EF003DFFD5 /* Utils */,
+				36530F2E1C4FA431003DFFD5 /* Packet */,
 				361D15131C4A7184002446F3 /* Info.plist */,
 			);
 			path = TunnelPacketKitTests;
+			sourceTree = "<group>";
+		};
+		361D15271C4B3184002446F3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				361D15381C4B4BBC002446F3 /* enums.swift */,
+				361D15281C4B3214002446F3 /* BinaryDataScanner.swift */,
+				36F6CE401C4B9EC000DA7D4C /* Options.swift */,
+				364A8F6E1C4E652C001E0D1A /* Checksum.swift */,
+				364181621C524F9D0041D94A /* LinkedList.swift */,
+				367C27871C65D87400EAC5F4 /* TCPUtils.swift */,
+				36A7BD5F1C7F222B002793CC /* Queue.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		361D152E1C4B433D002446F3 /* Packet */ = {
+			isa = PBXGroup;
+			children = (
+				361D151C1C4A71F8002446F3 /* IPPacket.swift */,
+				361D152A1C4B39AB002446F3 /* Packet.swift */,
+				361D152C1C4B39F8002446F3 /* TCPPacket.swift */,
+				361D153A1C4B5A0D002446F3 /* ProtocolPacket.swift */,
+			);
+			name = Packet;
+			sourceTree = "<group>";
+		};
+		361D15331C4B487D002446F3 /* Tunnel */ = {
+			isa = PBXGroup;
+			children = (
+				361D15361C4B4983002446F3 /* TunnelManager.swift */,
+				361D15311C4B4878002446F3 /* Tunnel.swift */,
+				364181641C52532D0041D94A /* TCPTunnel */,
+			);
+			name = Tunnel;
+			sourceTree = "<group>";
+		};
+		364181641C52532D0041D94A /* TCPTunnel */ = {
+			isa = PBXGroup;
+			children = (
+				361D15341C4B4886002446F3 /* TCPTunnel.swift */,
+				36D0EE501C58FE2800DD18AE /* DataManager.swift */,
+				364181651C52536A0041D94A /* SequenceManager.swift */,
+				36D0EE4C1C57AC2C00DD18AE /* TCPDataBlock.swift */,
+				36D0EE4E1C58F31900DD18AE /* BlockManager.swift */,
+			);
+			name = TCPTunnel;
+			sourceTree = "<group>";
+		};
+		36530F2E1C4FA431003DFFD5 /* Packet */ = {
+			isa = PBXGroup;
+			children = (
+				36530F2F1C4FA48C003DFFD5 /* IPPacketSpec.swift */,
+				36FF26C71C5A0C13008D8056 /* TCPPacketSpec.swift */,
+			);
+			name = Packet;
+			sourceTree = "<group>";
+		};
+		36530F3A1C4FC8EF003DFFD5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				36530F381C4FC8E9003DFFD5 /* ChecksumSpec.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		36530F3B1C50E6CE003DFFD5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				36530F2C1C4FA421003DFFD5 /* Packet_1.bin */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		36A7BD5E1C7DB48D002793CC /* SNWTunnel */ = {
+			isa = PBXGroup;
+			children = (
+				36A7BD5C1C7DB487002793CC /* SNWTCPTunnel.swift */,
+				36A7BD611C7F360E002793CC /* SNWUDPTunnel.swift */,
+			);
+			name = SNWTunnel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +300,7 @@
 				361D15081C4A7184002446F3 /* Sources */,
 				361D15091C4A7184002446F3 /* Frameworks */,
 				361D150A1C4A7184002446F3 /* Resources */,
+				36530F331C4FAB9E003DFFD5 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -184,6 +360,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36530F2D1C4FA421003DFFD5 /* Packet_1.bin in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +371,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				361D15371C4B4983002446F3 /* TunnelManager.swift in Sources */,
+				36A7BD601C7F222B002793CC /* Queue.swift in Sources */,
+				361D151D1C4A71F8002446F3 /* IPPacket.swift in Sources */,
+				361D152B1C4B39AB002446F3 /* Packet.swift in Sources */,
+				36F6CE411C4B9EC000DA7D4C /* Options.swift in Sources */,
+				361D15291C4B3214002446F3 /* BinaryDataScanner.swift in Sources */,
+				36A7BD621C7F360E002793CC /* SNWUDPTunnel.swift in Sources */,
+				361D152D1C4B39F8002446F3 /* TCPPacket.swift in Sources */,
+				36D0EE4F1C58F31900DD18AE /* BlockManager.swift in Sources */,
+				36D0EE4D1C57AC2C00DD18AE /* TCPDataBlock.swift in Sources */,
+				364181631C524F9D0041D94A /* LinkedList.swift in Sources */,
+				364181661C52536A0041D94A /* SequenceManager.swift in Sources */,
+				36A7BD5D1C7DB487002793CC /* SNWTCPTunnel.swift in Sources */,
+				361D153B1C4B5A0D002446F3 /* ProtocolPacket.swift in Sources */,
+				361D15301C4B4585002446F3 /* NetworkInterface.swift in Sources */,
+				361D15391C4B4BBC002446F3 /* enums.swift in Sources */,
+				367C27881C65D87400EAC5F4 /* TCPUtils.swift in Sources */,
+				36D0EE511C58FE2800DD18AE /* DataManager.swift in Sources */,
+				361D151F1C4A77C8002446F3 /* IPAddress.swift in Sources */,
+				364A8F6F1C4E652C001E0D1A /* Checksum.swift in Sources */,
+				361D15321C4B4878002446F3 /* Tunnel.swift in Sources */,
+				361D15351C4B4886002446F3 /* TCPTunnel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +400,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				361D15121C4A7184002446F3 /* TunnelPacketKitTests.swift in Sources */,
+				36530F301C4FA48C003DFFD5 /* IPPacketSpec.swift in Sources */,
+				36530F391C4FC8E9003DFFD5 /* ChecksumSpec.swift in Sources */,
+				36FF26C81C5A0C13008D8056 /* TCPPacketSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +506,7 @@
 		361D15171C4A7184002446F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -317,12 +519,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.zhuhaow.TunnelPacketKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		361D15181C4A7184002446F3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -342,6 +546,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = TunnelPacketKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.zhuhaow.TunnelPacketKitTests;
@@ -353,6 +561,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = TunnelPacketKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.zhuhaow.TunnelPacketKitTests;
@@ -379,6 +591,7 @@
 				361D15181C4A7184002446F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		361D15191C4A7184002446F3 /* Build configuration list for PBXNativeTarget "TunnelPacketKitTests" */ = {
 			isa = XCConfigurationList;
@@ -387,6 +600,7 @@
 				361D151B1C4A7184002446F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
