@@ -1,4 +1,4 @@
-# This is an experimental implemention of a TCP/IP stack in swift.#
+# This is an experimental implemention of a TCP/IP stack in Swift.#
 
 The whole project is just some toy codes which compile but probably won't work.
 
