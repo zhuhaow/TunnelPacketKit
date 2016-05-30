@@ -1,6 +1,6 @@
 # This is an experimental implemention of a TCP/IP stack in Swift.#
 
-**Try [tun2socks](https://github.com/zhuhaow/tun2socks) if you need an IP stack with tun interface support.**
+**Try [tun2socks](https://github.com/zhuhaow/tun2socks) if you need a functional IP stack with tun interface support.**
 
 The whole project is just some toy codes which compile but won't work. There are many known errors but they won't be fixed.
 
